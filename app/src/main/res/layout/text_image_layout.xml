@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/imageViewWithTextView"
-        android:layout_width="409dp"
-        android:layout_height="295dp"
+        android:layout_width="@dimen/iv_with_text_width"
+        android:layout_height="@dimen/iv_with_text_height"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
